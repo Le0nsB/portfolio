@@ -5,68 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Leons Bluks - Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #c4c4c4;
-            color: #333;
-        }
-
-        header {
-            background-image: linear-gradient(to right, #6d0606, #5f1650, #472872);
-            color: #fff;
-            text-align: center;
-            padding: 50px 0;
-        }
-
-        header h1 {
-            font-size: 3rem;
-        }
-
-        header p {
-            font-size: 1.2rem;
-            margin-top: 10px;
-        }
-
-        section {
-            padding: 40px 20px;
-            margin: 20px;
-            background-image: linear-gradient(to right, #ffffff, #ffffff, #feffdf);
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-        }
-
-        h2 {
-            font-size: 2rem;
-            margin-bottom: 20px;
-        }
-
-        ul {
-            list-style: none;
-            padding-left: 0;
-        }
-
-        ul li {
-            margin: 10px 0;
-        }
-
-        footer {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px 0;
-            position: absolute;
-            width: 100%;
-            bottom: 0;
-        }
-
-        footer p {
-            margin: 0;
-            font-size: 1rem;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -74,34 +13,73 @@
         <h1>Leons Bluks</h1>
     </header>
 
-    <section>
-        <h2>Par mani</h2>
-        <p>Mani sauc Leons Bluks un es esmu VTDT audzēknis. Es VTDT mācos kā programmēšanas tehniķis.</p>
+    <!-- Par mani Section -->
+    <section class="section-with-image">
+        <div class="text">
+            <h2>Par mani</h2>
+            <p>Mani sauc Leons Bluks un es esmu VTDT audzēknis. Es VTDT mācos kā programmēšanas tehniķis.</p>
+        </div>
+        <div class="image">
+            <img src="https://cdn-icons-png.flaticon.com/512/1077/1077114.png" alt="User Icon">
+        </div>
     </section>
 
-    <section>
-        <h2>Zināšanas</h2>
-        <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>C++</li>
-            <li>JavaScript</li>
-            <li>PHP</li>
-        </ul>
+    <!-- Zināšanas Section -->
+    <section class="section-with-image">
+        <div class="text">
+            <h2>Zināšanas</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>C++</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+            </ul>
+        </div>
+        <div class="image">
+            <img src="https://seeklogo.com/images/B/brain-icon-logo-EF81A9C157-seeklogo.com.png" alt="User Icon">
+        </div>
     </section>
 
-    <section>
-        <h2>Kontakti</h2>
-        <ul>
-            <li>E-pasts: leonsbluks@gmail.com</li>
-            <li>Numurs: 25 219 341</li>
-        </ul>
+    <!-- Projekti Section -->
+    <section class="section-with-image">
+        <div class="text">
+            <h2>Projekti</h2>
+            <ul>
+                <li>Triple Klikšķis</li>
+                <li>Kaķu datubāze</li>
+                <li>Pirmdienas Kaķis</li>
+            </ul>
+        </div>
+        <div class="image">
+            <img src="https://cdn-icons-png.flaticon.com/512/645/645827.png" alt="User Icon">
+        </div>
     </section>
 
-    <section>
-        <h2>Bilde ar mani</h2>
-        <img src="https://upload.wikimedia.org/wikipedia/en/2/21/Web_of_Spider-Man_Vol_1_129-1.png">
-        <p>Šī 100% ir bilde ar mani!</p>
+    <!-- Kontakti Section -->
+    <section class="section-with-image">
+        <div class="text">
+            <h2>Kontakti</h2>
+            <ul>
+                <li>E-pasts: leonsbluks@gmail.com</li>
+                <li>Numurs: 25 219 341</li>
+            </ul>
+        </div>
+        <div class="image">
+            <img src="https://static-00.iconduck.com/assets.00/phone-icon-391x512-fqvrqgvh.png" alt="User Icon">
+        </div>
+    </section>
+
+    <!-- Bilde ar mani Section -->
+    <section class="section-with-image">
+        <div class="text">
+            <h2>Bilde ar mani</h2>
+            <img src="https://upload.wikimedia.org/wikipedia/en/2/21/Web_of_Spider-Man_Vol_1_129-1.png">
+            <p>Šī 100% ir bilde ar mani!</p>
+        </div>
+        <div class="image">
+            <img src="https://static-00.iconduck.com/assets.00/camera-icon-1024x832-h0gkd0hw.png" alt="User Icon">
+        </div>
     </section>
 
 </body>
