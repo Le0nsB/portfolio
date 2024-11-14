@@ -15,6 +15,7 @@ header {
 
 header h1 {
     font-size: 3rem;
+    transition: transform 0.3s ease;
 }
 
 header p {
@@ -95,3 +96,12 @@ img:hover {
     transform: rotate(360deg);
 }
 
+@keyframes shake {
+    0%, 100% { transform: translateY(0); }
+    20%, 60% { transform: translateY(-10px); }
+    40%, 80% { transform: translateY(10px); }
+}
+
+header h1:hover {
+    animation: shake 0.5s ease-in-out;
+}
