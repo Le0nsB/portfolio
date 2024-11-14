@@ -32,7 +32,6 @@ section {
     overflow: hidden; 
 }
 
-
 .section-with-image {
     display: flex;
     justify-content: space-between; 
@@ -47,13 +46,15 @@ section {
 .section-with-image .image img {
     width: 100px;
     height: auto;
-    
 }
-
 
 section:hover {
     transform: scale(1.01);
     height: 110%;
+}
+
+section:hover h2 {
+    color: #6d0606;
 }
 
 h2 {
@@ -93,3 +94,4 @@ img {
 img:hover {
     transform: rotate(360deg);
 }
+
